@@ -1,0 +1,12 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    main_file: SMOOTHIEstreamlit_app.py
+    title: Untitled
+    query_warehouse: COMPUTE_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    artifacts:
+      - pyproject.toml
+      - SMOOTHIEstreamlit_app.py
+      - .streamlit/config.toml
